@@ -1,0 +1,58 @@
+@import url('https://fonts.google.com/specimen/Updock?categoryFilters=Seasonal:%2FSeasonal%2FHoli');
+
+
+body{
+    background-color: rgb(0, 255, 136);
+
+}
+html{
+    font-size:100px ;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:"Urbanist", sans-serif;
+    font-family:"thapaFont","Urbanist",sans-serif;
+    font-size:54px;
+    color:red;
+    font-weight:900;
+    font-style:oblique;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-thickness:10px; 
+    text-transform:uppercase;
+    text-shadow:2px 1px 1px blue;
+    padding:50px;
+}
+    
+
+
+
+p{
+    font-size:47px;
+    font-family:"Urbanist", sans-serif;
+    color:purple;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    border:10px solid blue;
+    border-left:10px dotted pink;
+    border-radius: 50%;
+    background-image:linear-gradient(to right top red, green ,yellow, pink);
+}   
+a{
+    font-family:"Urbanist", sans-serif;
+    font-size:90px;
+    
+}
+li{
+    font-size:45px;
+    color:rgb(190, 33, 112);
+}
+.parent{
+    font-size:10px;
+}
+p::second-letter{
+    text-transform:uppercase;
+    font-size:45px;
+    font-weight:600;
+}
